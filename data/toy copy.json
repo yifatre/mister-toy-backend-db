@@ -1,0 +1,238 @@
+[
+    {
+        "_id": "t101",
+        "name": "Talking Doll",
+        "price": 123,
+        "labels": [
+            "On wheels",
+            "Art",
+            "Educational"
+        ],
+        "createdAt": 1631031801011,
+        "inStock": true
+    },
+    {
+        "_id": "t102",
+        "name": "Remote Control Car",
+        "price": 79,
+        "labels": [
+            "Baby",
+            "Box game",
+            "Puzzle",
+            "Doll"
+        ],
+        "createdAt": 1631031801022,
+        "inStock": false
+    },
+    {
+        "_id": "t103",
+        "name": "Building Blocks",
+        "price": 45,
+        "labels": [
+            "Battery Powered"
+        ],
+        "createdAt": 1631031801033,
+        "inStock": true
+    },
+    {
+        "_id": "t104",
+        "name": "Teddy Bear",
+        "price": 55,
+        "labels": [
+            "Educational",
+            "Doll",
+            "Puzzle"
+        ],
+        "createdAt": 1631031801044,
+        "inStock": true
+    },
+    {
+        "_id": "t105",
+        "name": "Toy Kitchen Set",
+        "price": 89,
+        "labels": [
+            "Puzzle",
+            "Educational",
+            "Doll"
+        ],
+        "createdAt": 1631031801055,
+        "inStock": true
+    },
+    {
+        "_id": "t106",
+        "name": "Puzzle Cube",
+        "price": 15,
+        "labels": [
+            "Battery Powered",
+            "On wheels",
+            "Doll",
+            "Educational"
+        ],
+        "createdAt": 1631031801066,
+        "inStock": true
+    },
+    {
+        "_id": "t107",
+        "name": "Art Supplies Kit",
+        "price": 34,
+        "labels": [
+            "Doll",
+            "Baby",
+            "Box game",
+            "Educational"
+        ],
+        "createdAt": 1631031801077,
+        "inStock": false
+    },
+    {
+        "_id": "t108",
+        "name": "Remote Control Helicopter",
+        "price": 99,
+        "labels": [
+            "Art",
+            "Box game"
+        ],
+        "createdAt": 1631031801088,
+        "inStock": true
+    },
+    {
+        "_id": "t109",
+        "name": "Stuffed Penguin Plush",
+        "price": 25,
+        "labels": [
+            "Art",
+            "Baby",
+            "Educational"
+        ],
+        "createdAt": 1631031801099,
+        "inStock": true
+    },
+    {
+        "_id": "t110",
+        "name": "Musical Keyboard",
+        "price": 69,
+        "labels": [
+            "Outdoor",
+            "Doll"
+        ],
+        "createdAt": 1631031801100,
+        "inStock": true
+    },
+    {
+        "_id": "t111",
+        "name": "Wooden Train Set",
+        "price": 49,
+        "labels": [
+            "Outdoor",
+            "Doll"
+        ],
+        "createdAt": 1631031801111,
+        "inStock": true
+    },
+    {
+        "_id": "t112",
+        "name": "Dollhouse",
+        "price": 159,
+        "labels": [
+            "Battery Powered",
+            "Outdoor",
+            "Box game",
+            "Puzzle"
+        ],
+        "createdAt": 1631031801122,
+        "inStock": true
+    },
+    {
+        "_id": "t113",
+        "name": "Bubble Blower",
+        "price": 19,
+        "labels": [
+            "On wheels",
+            "Educational",
+            "Box game"
+        ],
+        "createdAt": 1631031801133,
+        "inStock": true
+    },
+    {
+        "_id": "t114",
+        "name": "Remote Control Boat",
+        "price": 89,
+        "labels": [
+            "Battery Powered",
+            "Baby"
+        ],
+        "createdAt": 1631031801144,
+        "inStock": true
+    },
+    {
+        "_id": "t115",
+        "name": "Building and Construction Set",
+        "price": 59,
+        "labels": [
+            "Baby",
+            "Outdoor"
+        ],
+        "createdAt": 1631031801155,
+        "inStock": false
+    },
+    {
+        "_id": "t116",
+        "name": "Dinosaur Figures Set",
+        "price": 29,
+        "labels": [
+            "On wheels",
+            "Box game",
+            "Baby"
+        ],
+        "createdAt": 1631031801166,
+        "inStock": true
+    },
+    {
+        "_id": "t117",
+        "name": "Coloring Book",
+        "price": 9,
+        "labels": [
+            "On wheels",
+            "Educational"
+        ],
+        "createdAt": 1631031801177,
+        "inStock": true
+    },
+    {
+        "_id": "t118",
+        "name": "Toy Telescope",
+        "price": 39,
+        "labels": [
+            "Outdoor",
+            "On wheels"
+        ],
+        "createdAt": 1631031801188,
+        "inStock": true
+    },
+    {
+        "_id": "t119",
+        "name": "Toy Doctor Kit",
+        "price": 29,
+        "labels": [
+            "Puzzle",
+            "Art",
+            "Baby",
+            "On wheels"
+        ],
+        "createdAt": 1631031801199,
+        "inStock": true
+    },
+    {
+        "_id": "t120",
+        "name": "Robot Building Kit",
+        "price": 79,
+        "labels": [
+            "Battery Powered",
+            "Baby",
+            "Educational"
+        ],
+        "createdAt": 1631031801200,
+        "inStock": true
+    }
+]
