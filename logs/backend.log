@@ -407,3 +407,8 @@
 30.3.2024, 16:30:18 - DEBUG - Getting Toys | {"txt":""} 
 30.3.2024, 16:30:18 - INFO - Req was made | / 
 30.3.2024, 16:30:18 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 16:33:57 - INFO - server.js loaded... 
+30.3.2024, 16:35:32 - INFO - server.js loaded... 
+30.3.2024, 16:35:41 - WARN - ab csattempted to perform admin action 
+30.3.2024, 16:38:01 - DEBUG - auth.service - login with username: sss 
+30.3.2024, 16:38:01 - INFO - User login:  | {"_id":"66057d14869a5c5898011e83","username":"sss","fullName":"ab cs","score":0,"isAdmin":true} 
