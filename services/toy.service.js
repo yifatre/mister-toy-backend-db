@@ -39,7 +39,7 @@ function query(filterBy, sort) {
 
     // sort either by price or by name - when sorting by string we need more 
     // complex conditions, thats for you to figure out ;)
-    // we use the asc key in the sort to determin which way to sort
+    // we use the asc key in the sort to determine which way to sort
     // ascending or descending. so when we change the number to pos \ neg 
     // it will change the direction of the sort
     // filteredToys.sort((toy1, toy2) => {

@@ -2,17 +2,14 @@ import path, { dirname } from 'path'
 import express from 'express'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
-import { fileURLToPath } from 'url'
 
-const __filename = fileURLToPath(import.meta.url) //! WHY
-const __dirname = dirname(__filename) //! WHY
 
 import { logger } from './services/logger.service.js'
-logger.info('server.js loaded...') 
+logger.info('server.js loaded...')
 
-
-
-import { toyService } from './services/toy.service.js'
+import { authRoutes } from './api/auth/auth.routes.js'
+import { userRoutes } from './api/user/user.routes.js'
+import { toyRoutes } from './api/toy/toy.routes.js'
 
 
 
@@ -38,67 +35,74 @@ if (process.env.NODE_ENV === 'production') {
     app.use(cors(corsOptions))
 }
 
-app.get('/api/toy', (req, res) => {
-    const { filterBy = {}, sort = {} } = req.query.params
-    // console.log("req.query.params:", req.query.params)
 
-    toyService.query(filterBy, sort)
-        .then(toys => {
-            res.send(toys)
-        })
-        .catch(err => {
-            console.log('Had issues getting toys', err)
-            res.status(400).send({ msg: 'Had issues getting toys' })
-        })
-})
+app.use('/api/auth', authRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/toy', toyRoutes)
 
-app.get('/api/toy/:id', (req, res) => {
-    const toyId = req.params.id
-    toyService.getById(toyId)
-        .then(toy => {
-            res.send(toy)
-        })
-        .catch(err => {
-            console.log('Had issues getting toy', err)
-            res.status(400).send({ msg: 'Had issues getting toy' })
-        })
-})
 
-app.delete('/api/toy/:id', (req, res) => {
-    const toyId = req.params.id
-    toyService.remove(toyId)
-        .then(() => {
-            res.end('Done!')
-        })
-        .catch(err => {
-            console.log('Had issues deleting toy', err)
-            res.status(400).send({ msg: 'Had issues deleteing toy' })
-        })
-})
 
-app.post('/api/toy', (req, res) => {
-    const toy = req.body
-    toyService.save(toy)
-        .then(savedToy => {
-            res.send(savedToy)
-        })
-        .catch(err => {
-            console.log('Had issues adding toy', err)
-            res.status(400).send({ msg: 'Had issues adding toy' })
-        })
-})
+// app.get('/api/toy', (req, res) => {
+//     const { filterBy = {}, sort = {} } = req.query.params
+//     // console.log("req.query.params:", req.query.params)
 
-app.put('/api/toy/:id', (req, res) => {
-    const toy = req.body
-    toyService.save(toy)
-        .then(savedToy => {
-            res.send(savedToy)
-        })
-        .catch(err => {
-            console.log('Had issues updating toy', err)
-            res.status(400).send({ msg: 'Had issues updating toy' })
-        })
-})
+//     toyService.query(filterBy, sort)
+//         .then(toys => {
+//             res.send(toys)
+//         })
+//         .catch(err => {
+//             console.log('Had issues getting toys', err)
+//             res.status(400).send({ msg: 'Had issues getting toys' })
+//         })
+// })
+
+// app.get('/api/toy/:id', (req, res) => {
+//     const toyId = req.params.id
+//     toyService.getById(toyId)
+//         .then(toy => {
+//             res.send(toy)
+//         })
+//         .catch(err => {
+//             console.log('Had issues getting toy', err)
+//             res.status(400).send({ msg: 'Had issues getting toy' })
+//         })
+// })
+
+// app.delete('/api/toy/:id', (req, res) => {
+//     const toyId = req.params.id
+//     toyService.remove(toyId)
+//         .then(() => {
+//             res.end('Done!')
+//         })
+//         .catch(err => {
+//             console.log('Had issues deleting toy', err)
+//             res.status(400).send({ msg: 'Had issues deleteing toy' })
+//         })
+// })
+
+// app.post('/api/toy', (req, res) => {
+//     const toy = req.body
+//     toyService.save(toy)
+//         .then(savedToy => {
+//             res.send(savedToy)
+//         })
+//         .catch(err => {
+//             console.log('Had issues adding toy', err)
+//             res.status(400).send({ msg: 'Had issues adding toy' })
+//         })
+// })
+
+// app.put('/api/toy/:id', (req, res) => {
+//     const toy = req.body
+//     toyService.save(toy)
+//         .then(savedToy => {
+//             res.send(savedToy)
+//         })
+//         .catch(err => {
+//             console.log('Had issues updating toy', err)
+//             res.status(400).send({ msg: 'Had issues updating toy' })
+//         })
+// })
 
 
 
