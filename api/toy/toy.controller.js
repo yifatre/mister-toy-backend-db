@@ -3,9 +3,16 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getToys(req, res) {
     try {
+        // console.log('req.query', req.query)
         const filterBy = {
             txt: req.query.txt || '',
+            labels: req.query.labels || [],
+            inStock: req.query.inStock || undefined
         }
+        if (filterBy.inStock !== undefined) {
+            filterBy.inStock = filterBy.inStock === 'true' ? true : false
+        }
+        console.log('filterBy', filterBy)
         logger.debug('Getting Toys', filterBy)
         const toys = await toyService.query(filterBy)
         res.json(toys)

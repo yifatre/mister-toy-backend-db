@@ -5,11 +5,19 @@ import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
 import { utilService } from '../../services/util.service.js'
 
-async function query(filterBy={txt:''}) {
+async function query(filterBy = { txt: '' }) {
     try {
         const criteria = {
             name: { $regex: filterBy.txt, $options: 'i' }
         }
+        if (filterBy.inStock !== undefined) {
+            criteria.inStock = filterBy.inStock
+        }
+        if (filterBy.labels.length) {
+            // criteria.labels = [{ labels: filterBy.labels.map(label => ({ $regex: label, $options: 'i' })) }]
+            // labels: filterBy.labels.length ?  : undefined,
+        }
+
         const collection = await dbService.getCollection('toy')
         var toys = await collection.find(criteria).toArray()
         return toys
@@ -81,7 +89,7 @@ async function addToyMsg(toyId, msg) {
 async function removeToyMsg(toyId, msgId) {
     try {
         const collection = await dbService.getCollection('toy')
-        await collection.updateOne({ _id: ObjectId(toyId) }, { $pull: { msgs: {id: msgId} } })
+        await collection.updateOne({ _id: ObjectId(toyId) }, { $pull: { msgs: { id: msgId } } })
         return msgId
     } catch (err) {
         logger.error(`cannot add toy msg ${toyId}`, err)
