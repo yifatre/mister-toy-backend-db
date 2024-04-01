@@ -1267,3 +1267,29 @@
 1.4.2024, 20:15:47 - INFO - Req was made | / 
 1.4.2024, 20:15:47 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
 1.4.2024, 20:17:02 - INFO - server.js loaded... 
+1.4.2024, 20:17:37 - INFO - Req was made | / 
+1.4.2024, 20:17:37 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:17:38 - INFO - Req was made | / 
+1.4.2024, 20:17:38 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:17:39 - INFO - Req was made | / 
+1.4.2024, 20:17:39 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:21:38 - INFO - server.js loaded... 
+1.4.2024, 20:33:08 - INFO - Req was made | / 
+1.4.2024, 20:33:08 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:33:09 - INFO - Req was made | / 
+1.4.2024, 20:33:09 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:33:10 - INFO - Req was made | / 
+1.4.2024, 20:33:10 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:33:14 - INFO - Req was made | / 
+1.4.2024, 20:33:14 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:33:14 - INFO - Req was made | / 
+1.4.2024, 20:33:14 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:33:14 - INFO - Req was made | / 
+1.4.2024, 20:33:14 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:33:16 - INFO - Req was made | / 
+1.4.2024, 20:33:16 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 20:33:16 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 20:33:16 - INFO - Req was made | / 
+1.4.2024, 20:33:16 - INFO - Req was made | / 
+1.4.2024, 20:33:16 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 20:38:04 - INFO - server.js loaded... 
