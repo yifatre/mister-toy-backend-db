@@ -6,12 +6,12 @@ export async function getToys(req, res) {
         // console.log('req.query', req.query)
         const filterBy = {
             txt: req.query.txt || '',
-            labels: req.query.labels || [],
-            inStock: req.query.inStock || undefined
+            labels: req.query.labels || null,
+            inStock: req.query.inStock || null
         }
-        if (filterBy.inStock !== undefined) {
-            filterBy.inStock = filterBy.inStock === 'true' ? true : false
-        }
+        // if (filterBy.inStock !== undefined) {
+        //     filterBy.inStock = filterBy.inStock === 'true' ? true : false
+        // }
         console.log('filterBy', filterBy)
         logger.debug('Getting Toys', filterBy)
         const toys = await toyService.query(filterBy)
