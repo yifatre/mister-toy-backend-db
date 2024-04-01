@@ -5,18 +5,19 @@ import { dbService } from '../../services/db.service.js'
 import { logger } from '../../services/logger.service.js'
 import { utilService } from '../../services/util.service.js'
 
-async function query(filterBy = { txt: '' }) {
+async function query(filterBy) {
     try {
-        const criteria = {
-            name: { $regex: filterBy.txt, $options: 'i' }
-        }
-        if (filterBy.inStock !== undefined) {
-            criteria.inStock = filterBy.inStock
-        }
-        if (filterBy.labels.length) {
-            // criteria.labels = [{ labels: filterBy.labels.map(label => ({ $regex: label, $options: 'i' })) }]
-            // labels: filterBy.labels.length ?  : undefined,
-        }
+        const criteria = _buildCriteria(filterBy)
+        // {
+        //     name: { $regex: filterBy.txt, $options: 'i' }
+        // }
+        // if (filterBy.inStock) {
+        //     criteria.inStock = JSON.parse(filterBy.inStock)
+        // }
+        // if (filterBy.labels?.length) {
+        //     // criteria.labels = [{ labels: filterBy.labels.map(label => ({ $regex: label, $options: 'i' })) }]
+        //     // labels: filterBy.labels.length ?  : undefined,
+        // }
 
         const collection = await dbService.getCollection('toy')
         var toys = await collection.find(criteria).toArray()
@@ -95,6 +96,39 @@ async function removeToyMsg(toyId, msgId) {
         logger.error(`cannot add toy msg ${toyId}`, err)
         throw err
     }
+}
+
+
+function _buildCriteria(filterBy) {
+    console.log(filterBy)
+    const { labels, txt, status } = filterBy
+
+    const criteria = {}
+
+    if (txt) {
+        criteria.name = { $regex: txt, $options: 'i' }
+    }
+
+    if (labels && labels.length) {
+        //   every for string labels
+        const labelsCrit = labels.map((label) => ({
+            labels: label,
+        }))
+        criteria.$and = labelsCrit
+        criteria.labels = { $all: labels }
+
+        //   // for some for string labels
+        //   console.log('labels', labels)
+        //   criteria.labels = { $in: labels } //['Doll']
+    }
+
+    if (filterBy.inStock) {
+        criteria.inStock = JSON.parse(filterBy.inStock)
+    }
+    
+    console.log('criteria', criteria)
+
+    return criteria
 }
 
 export const toyService = {

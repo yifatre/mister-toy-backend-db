@@ -782,3 +782,468 @@
 30.3.2024, 18:22:10 - INFO - server.js loaded... 
 31.3.2024, 8:54:25 - INFO - server.js loaded... 
 31.3.2024, 8:55:47 - INFO - server.js loaded... 
+31.3.2024, 9:07:41 - INFO - server.js loaded... 
+31.3.2024, 9:10:00 - INFO - server.js loaded... 
+31.3.2024, 9:10:15 - INFO - server.js loaded... 
+1.4.2024, 16:45:16 - INFO - server.js loaded... 
+1.4.2024, 16:46:59 - INFO - server.js loaded... 
+1.4.2024, 16:50:54 - INFO - Req was made | / 
+1.4.2024, 16:50:54 - ERROR - Failed to get toys | TypeError: Cannot read properties of null (reading 'length') 
+1.4.2024, 16:50:54 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 16:50:54 - ERROR - cannot find toys | TypeError: Cannot read properties of null (reading 'length') 
+1.4.2024, 16:51:30 - INFO - server.js loaded... 
+1.4.2024, 16:51:31 - INFO - Req was made | / 
+1.4.2024, 16:51:31 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 16:51:31 - ERROR - Failed to get toys | TypeError: Cannot read properties of null (reading 'length') 
+1.4.2024, 16:51:31 - ERROR - cannot find toys | TypeError: Cannot read properties of null (reading 'length') 
+1.4.2024, 16:51:44 - INFO - Req was made | / 
+1.4.2024, 16:51:44 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 16:51:44 - ERROR - cannot find toys | TypeError: Cannot read properties of null (reading 'length') 
+1.4.2024, 16:51:44 - ERROR - Failed to get toys | TypeError: Cannot read properties of null (reading 'length') 
+1.4.2024, 16:55:59 - INFO - Req was made | / 
+1.4.2024, 16:55:59 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 16:55:59 - ERROR - cannot find toys | TypeError: Cannot read properties of null (reading 'length') 
+1.4.2024, 16:55:59 - ERROR - Failed to get toys | TypeError: Cannot read properties of null (reading 'length') 
+1.4.2024, 16:57:44 - INFO - server.js loaded... 
+1.4.2024, 16:57:53 - INFO - Req was made | / 
+1.4.2024, 16:57:53 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 16:57:54 - INFO - Req was made | / 
+1.4.2024, 16:57:54 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 16:57:55 - INFO - Req was made | / 
+1.4.2024, 16:57:55 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 16:58:00 - INFO - Req was made | / 
+1.4.2024, 16:58:00 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 16:58:00 - INFO - Req was made | / 
+1.4.2024, 16:58:00 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 16:58:00 - INFO - Req was made | / 
+1.4.2024, 16:58:00 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 16:58:02 - INFO - Req was made | / 
+1.4.2024, 16:58:02 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:02 - INFO - Req was made | / 
+1.4.2024, 16:58:02 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:02 - INFO - Req was made | / 
+1.4.2024, 16:58:02 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:06 - DEBUG - Getting Toys | {"txt":"re","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:06 - INFO - Req was made | / 
+1.4.2024, 16:58:06 - INFO - Req was made | / 
+1.4.2024, 16:58:06 - DEBUG - Getting Toys | {"txt":"re","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:07 - INFO - Req was made | / 
+1.4.2024, 16:58:07 - DEBUG - Getting Toys | {"txt":"re","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:09 - INFO - Req was made | / 
+1.4.2024, 16:58:09 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:09 - INFO - Req was made | / 
+1.4.2024, 16:58:09 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:09 - INFO - Req was made | / 
+1.4.2024, 16:58:09 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":null} 
+1.4.2024, 16:58:10 - INFO - Req was made | / 
+1.4.2024, 16:58:10 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":"true"} 
+1.4.2024, 16:58:10 - INFO - Req was made | / 
+1.4.2024, 16:58:10 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":"true"} 
+1.4.2024, 16:58:11 - INFO - Req was made | / 
+1.4.2024, 16:58:11 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels","baby"],"inStock":"true"} 
+1.4.2024, 16:58:12 - INFO - Req was made | / 
+1.4.2024, 16:58:12 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:13 - INFO - Req was made | / 
+1.4.2024, 16:58:13 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:13 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:13 - INFO - Req was made | / 
+1.4.2024, 16:58:13 - INFO - Req was made | / 
+1.4.2024, 16:58:13 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:15 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:15 - INFO - Req was made | / 
+1.4.2024, 16:58:15 - INFO - Req was made | / 
+1.4.2024, 16:58:15 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:15 - INFO - Req was made | / 
+1.4.2024, 16:58:15 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:15 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:15 - INFO - Req was made | / 
+1.4.2024, 16:58:16 - INFO - Req was made | / 
+1.4.2024, 16:58:16 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:17 - INFO - Req was made | / 
+1.4.2024, 16:58:17 - DEBUG - Getting Toys | {"txt":"jh","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:17 - INFO - Req was made | / 
+1.4.2024, 16:58:17 - DEBUG - Getting Toys | {"txt":"jh","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:17 - INFO - Req was made | / 
+1.4.2024, 16:58:17 - DEBUG - Getting Toys | {"txt":"jh","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:19 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:19 - INFO - Req was made | / 
+1.4.2024, 16:58:19 - INFO - Req was made | / 
+1.4.2024, 16:58:19 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:19 - INFO - Req was made | / 
+1.4.2024, 16:58:19 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 16:58:40 - DEBUG - auth.service - login with username: sss 
+1.4.2024, 16:58:40 - INFO - User login:  | {"_id":"66057d14869a5c5898011e83","username":"sss","fullName":"ab cs","score":0,"isAdmin":true} 
+1.4.2024, 17:03:17 - INFO - server.js loaded... 
+1.4.2024, 17:04:07 - INFO - server.js loaded... 
+1.4.2024, 17:04:53 - INFO - server.js loaded... 
+1.4.2024, 17:05:09 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:05:09 - INFO - Req was made | / 
+1.4.2024, 17:05:09 - INFO - Req was made | / 
+1.4.2024, 17:05:09 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":"true"} 
+1.4.2024, 17:05:10 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":"true"} 
+1.4.2024, 17:05:10 - INFO - Req was made | / 
+1.4.2024, 17:05:10 - INFO - Req was made | / 
+1.4.2024, 17:05:10 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":"true"} 
+1.4.2024, 17:05:10 - INFO - Req was made | / 
+1.4.2024, 17:05:10 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":"true"} 
+1.4.2024, 17:05:17 - INFO - Req was made | / 
+1.4.2024, 17:05:17 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 17:05:17 - INFO - Req was made | / 
+1.4.2024, 17:05:17 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 17:05:17 - INFO - Req was made | / 
+1.4.2024, 17:05:17 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 17:05:21 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:21 - INFO - Req was made | / 
+1.4.2024, 17:05:21 - INFO - Req was made | / 
+1.4.2024, 17:05:21 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:21 - INFO - Req was made | / 
+1.4.2024, 17:05:21 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:26 - INFO - Req was made | / 
+1.4.2024, 17:05:26 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:05:26 - INFO - Req was made | / 
+1.4.2024, 17:05:26 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:05:26 - INFO - Req was made | / 
+1.4.2024, 17:05:26 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:05:27 - INFO - Req was made | / 
+1.4.2024, 17:05:27 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:05:27 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:05:27 - INFO - Req was made | / 
+1.4.2024, 17:05:27 - INFO - Req was made | / 
+1.4.2024, 17:05:27 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:05:28 - INFO - Req was made | / 
+1.4.2024, 17:05:28 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:05:28 - INFO - Req was made | / 
+1.4.2024, 17:05:28 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:05:29 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:29 - INFO - Req was made | / 
+1.4.2024, 17:05:29 - INFO - Req was made | / 
+1.4.2024, 17:05:29 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:29 - INFO - Req was made | / 
+1.4.2024, 17:05:29 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:30 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor"],"inStock":null} 
+1.4.2024, 17:05:30 - INFO - Req was made | / 
+1.4.2024, 17:05:30 - INFO - Req was made | / 
+1.4.2024, 17:05:30 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor"],"inStock":null} 
+1.4.2024, 17:05:30 - INFO - Req was made | / 
+1.4.2024, 17:05:30 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor"],"inStock":null} 
+1.4.2024, 17:05:31 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle"],"inStock":null} 
+1.4.2024, 17:05:31 - INFO - Req was made | / 
+1.4.2024, 17:05:31 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle"],"inStock":null} 
+1.4.2024, 17:05:31 - INFO - Req was made | / 
+1.4.2024, 17:05:31 - INFO - Req was made | / 
+1.4.2024, 17:05:31 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle"],"inStock":null} 
+1.4.2024, 17:05:32 - INFO - Req was made | / 
+1.4.2024, 17:05:32 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle","box game"],"inStock":null} 
+1.4.2024, 17:05:32 - INFO - Req was made | / 
+1.4.2024, 17:05:32 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle","box game"],"inStock":null} 
+1.4.2024, 17:05:32 - INFO - Req was made | / 
+1.4.2024, 17:05:32 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle","box game"],"inStock":null} 
+1.4.2024, 17:05:33 - INFO - Req was made | / 
+1.4.2024, 17:05:33 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle","box game"],"inStock":null} 
+1.4.2024, 17:05:34 - INFO - Req was made | / 
+1.4.2024, 17:05:34 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle"],"inStock":null} 
+1.4.2024, 17:05:34 - INFO - Req was made | / 
+1.4.2024, 17:05:34 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor","puzzle"],"inStock":null} 
+1.4.2024, 17:05:35 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor"],"inStock":null} 
+1.4.2024, 17:05:35 - INFO - Req was made | / 
+1.4.2024, 17:05:35 - INFO - Req was made | / 
+1.4.2024, 17:05:35 - DEBUG - Getting Toys | {"txt":"","labels":["outdoor"],"inStock":null} 
+1.4.2024, 17:05:35 - INFO - Req was made | / 
+1.4.2024, 17:05:35 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:35 - INFO - Req was made | / 
+1.4.2024, 17:05:35 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:35 - INFO - Req was made | / 
+1.4.2024, 17:05:35 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:45 - INFO - Req was made | / 
+1.4.2024, 17:05:45 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 17:05:45 - INFO - Req was made | / 
+1.4.2024, 17:05:45 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 17:05:46 - INFO - Req was made | / 
+1.4.2024, 17:05:46 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 17:05:51 - INFO - Req was made | / 
+1.4.2024, 17:05:51 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:51 - INFO - Req was made | / 
+1.4.2024, 17:05:51 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:51 - INFO - Req was made | / 
+1.4.2024, 17:05:51 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:05:53 - INFO - Req was made | / 
+1.4.2024, 17:05:53 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":null} 
+1.4.2024, 17:05:53 - INFO - Req was made | / 
+1.4.2024, 17:05:53 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":null} 
+1.4.2024, 17:05:53 - INFO - Req was made | / 
+1.4.2024, 17:05:53 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":null} 
+1.4.2024, 17:06:27 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":"true"} 
+1.4.2024, 17:06:27 - INFO - Req was made | / 
+1.4.2024, 17:06:27 - INFO - Req was made | / 
+1.4.2024, 17:06:27 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":"true"} 
+1.4.2024, 17:06:27 - INFO - Req was made | / 
+1.4.2024, 17:06:27 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":"true"} 
+1.4.2024, 17:06:30 - INFO - Req was made | / 
+1.4.2024, 17:06:30 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":"false"} 
+1.4.2024, 17:06:30 - INFO - Req was made | / 
+1.4.2024, 17:06:30 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":"false"} 
+1.4.2024, 17:06:30 - DEBUG - Getting Toys | {"txt":"t","labels":null,"inStock":"false"} 
+1.4.2024, 17:06:30 - INFO - Req was made | / 
+1.4.2024, 17:06:33 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:06:33 - INFO - Req was made | / 
+1.4.2024, 17:06:33 - INFO - Req was made | / 
+1.4.2024, 17:06:33 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:06:34 - INFO - Req was made | / 
+1.4.2024, 17:06:34 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:06:35 - INFO - Req was made | / 
+1.4.2024, 17:06:35 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:06:35 - INFO - Req was made | / 
+1.4.2024, 17:06:35 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:06:35 - INFO - Req was made | / 
+1.4.2024, 17:06:35 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:07:48 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":"true"} 
+1.4.2024, 17:07:48 - INFO - Req was made | / 
+1.4.2024, 17:07:49 - INFO - Req was made | / 
+1.4.2024, 17:07:49 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":"true"} 
+1.4.2024, 17:07:49 - INFO - Req was made | / 
+1.4.2024, 17:07:49 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":"true"} 
+1.4.2024, 17:08:06 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:08:06 - INFO - Req was made | / 
+1.4.2024, 17:08:06 - INFO - Req was made | / 
+1.4.2024, 17:08:06 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:08:06 - INFO - Req was made | / 
+1.4.2024, 17:08:06 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:08:11 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:08:11 - INFO - Req was made | / 
+1.4.2024, 17:08:11 - INFO - Req was made | / 
+1.4.2024, 17:08:11 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:08:11 - INFO - Req was made | / 
+1.4.2024, 17:08:11 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:09:11 - INFO - server.js loaded... 
+1.4.2024, 17:09:31 - INFO - Req was made | / 
+1.4.2024, 17:09:31 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:09:32 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:09:32 - INFO - Req was made | / 
+1.4.2024, 17:09:32 - INFO - Req was made | / 
+1.4.2024, 17:09:32 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:09:34 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:09:34 - INFO - Req was made | / 
+1.4.2024, 17:09:34 - INFO - Req was made | / 
+1.4.2024, 17:09:34 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:09:34 - INFO - Req was made | / 
+1.4.2024, 17:09:34 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"false"} 
+1.4.2024, 17:09:36 - INFO - Req was made | / 
+1.4.2024, 17:09:36 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:09:36 - INFO - Req was made | / 
+1.4.2024, 17:09:36 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:09:36 - INFO - Req was made | / 
+1.4.2024, 17:09:36 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:09:41 - INFO - Req was made | / 
+1.4.2024, 17:09:41 - DEBUG - Getting Toys | {"txt":"","labels":["box game"],"inStock":"true"} 
+1.4.2024, 17:09:41 - INFO - Req was made | / 
+1.4.2024, 17:09:41 - DEBUG - Getting Toys | {"txt":"","labels":["box game"],"inStock":"true"} 
+1.4.2024, 17:09:41 - DEBUG - Getting Toys | {"txt":"","labels":["box game"],"inStock":"true"} 
+1.4.2024, 17:09:41 - INFO - Req was made | / 
+1.4.2024, 17:11:22 - INFO - Req was made | / 
+1.4.2024, 17:11:22 - DEBUG - Getting Toys | {"txt":"","labels":["box game"],"inStock":"true"} 
+1.4.2024, 17:11:22 - INFO - Req was made | / 
+1.4.2024, 17:11:22 - DEBUG - Getting Toys | {"txt":"","labels":["box game"],"inStock":"true"} 
+1.4.2024, 17:11:25 - INFO - Req was made | / 
+1.4.2024, 17:11:25 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:11:25 - INFO - Req was made | / 
+1.4.2024, 17:11:25 - DEBUG - Getting Toys | {"txt":"","labels":["box game"],"inStock":"true"} 
+1.4.2024, 17:11:25 - INFO - Req was made | / 
+1.4.2024, 17:11:25 - DEBUG - Getting Toys | {"txt":"","labels":["box game"],"inStock":"true"} 
+1.4.2024, 17:11:30 - INFO - Req was made | / 
+1.4.2024, 17:11:30 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game"],"inStock":"true"} 
+1.4.2024, 17:11:30 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game"],"inStock":"true"} 
+1.4.2024, 17:11:30 - INFO - Req was made | / 
+1.4.2024, 17:11:30 - INFO - Req was made | / 
+1.4.2024, 17:11:30 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game"],"inStock":"true"} 
+1.4.2024, 17:11:32 - INFO - Req was made | / 
+1.4.2024, 17:11:32 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game","On wheels"],"inStock":"true"} 
+1.4.2024, 17:11:32 - INFO - Req was made | / 
+1.4.2024, 17:11:32 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game","On wheels"],"inStock":"true"} 
+1.4.2024, 17:11:32 - INFO - Req was made | / 
+1.4.2024, 17:11:32 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game","On wheels"],"inStock":"true"} 
+1.4.2024, 17:11:34 - INFO - Req was made | / 
+1.4.2024, 17:11:34 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game","On wheels"],"inStock":null} 
+1.4.2024, 17:11:34 - INFO - Req was made | / 
+1.4.2024, 17:11:34 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game","On wheels"],"inStock":null} 
+1.4.2024, 17:11:34 - INFO - Req was made | / 
+1.4.2024, 17:11:34 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game","On wheels"],"inStock":null} 
+1.4.2024, 17:11:37 - INFO - Req was made | / 
+1.4.2024, 17:11:37 - DEBUG - Getting Toys | {"txt":"","labels":["box game","Box game","On wheels"],"inStock":null} 
+1.4.2024, 17:11:37 - INFO - Req was made | / 
+1.4.2024, 17:11:37 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:11:37 - INFO - Req was made | / 
+1.4.2024, 17:11:37 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:11:39 - INFO - Req was made | / 
+1.4.2024, 17:11:39 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:11:39 - INFO - Req was made | / 
+1.4.2024, 17:11:39 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:11:39 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:11:39 - INFO - Req was made | / 
+1.4.2024, 17:11:42 - INFO - Req was made | / 
+1.4.2024, 17:11:42 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":null} 
+1.4.2024, 17:11:42 - INFO - Req was made | / 
+1.4.2024, 17:11:42 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":null} 
+1.4.2024, 17:11:42 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":null} 
+1.4.2024, 17:11:42 - INFO - Req was made | / 
+1.4.2024, 17:11:45 - INFO - Req was made | / 
+1.4.2024, 17:11:45 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":"false"} 
+1.4.2024, 17:11:46 - INFO - Req was made | / 
+1.4.2024, 17:11:46 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":"true"} 
+1.4.2024, 17:11:46 - INFO - Req was made | / 
+1.4.2024, 17:11:46 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":"true"} 
+1.4.2024, 17:11:46 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":"true"} 
+1.4.2024, 17:11:46 - INFO - Req was made | / 
+1.4.2024, 17:11:47 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":null} 
+1.4.2024, 17:11:47 - INFO - Req was made | / 
+1.4.2024, 17:11:47 - INFO - Req was made | / 
+1.4.2024, 17:11:47 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":null} 
+1.4.2024, 17:11:47 - INFO - Req was made | / 
+1.4.2024, 17:11:47 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Box game"],"inStock":null} 
+1.4.2024, 17:11:51 - INFO - Req was made | / 
+1.4.2024, 17:11:51 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:11:51 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:11:51 - INFO - Req was made | / 
+1.4.2024, 17:11:52 - INFO - Req was made | / 
+1.4.2024, 17:11:52 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:11:55 - INFO - Req was made | / 
+1.4.2024, 17:11:55 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Outdoor"],"inStock":null} 
+1.4.2024, 17:11:55 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Outdoor"],"inStock":null} 
+1.4.2024, 17:11:55 - INFO - Req was made | / 
+1.4.2024, 17:11:55 - INFO - Req was made | / 
+1.4.2024, 17:11:55 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels","Outdoor"],"inStock":null} 
+1.4.2024, 17:12:54 - INFO - Req was made | / 
+1.4.2024, 17:12:54 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:12:54 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:12:54 - INFO - Req was made | / 
+1.4.2024, 17:23:26 - INFO - server.js loaded... 
+1.4.2024, 17:23:37 - INFO - server.js loaded... 
+1.4.2024, 17:24:39 - INFO - server.js loaded... 
+1.4.2024, 17:24:41 - INFO - Req was made | / 
+1.4.2024, 17:24:41 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:24:42 - INFO - Req was made | / 
+1.4.2024, 17:24:42 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:24:43 - INFO - Req was made | / 
+1.4.2024, 17:24:43 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:24:45 - INFO - Req was made | / 
+1.4.2024, 17:24:45 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:24:45 - INFO - Req was made | / 
+1.4.2024, 17:24:45 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:24:45 - INFO - Req was made | / 
+1.4.2024, 17:24:45 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 17:24:46 - INFO - Req was made | / 
+1.4.2024, 17:24:46 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:24:46 - INFO - Req was made | / 
+1.4.2024, 17:24:46 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:24:46 - INFO - Req was made | / 
+1.4.2024, 17:24:46 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:24:47 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:24:47 - INFO - Req was made | / 
+1.4.2024, 17:24:47 - INFO - Req was made | / 
+1.4.2024, 17:24:47 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:24:47 - INFO - Req was made | / 
+1.4.2024, 17:24:47 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:24:49 - INFO - Req was made | / 
+1.4.2024, 17:24:49 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":"true"} 
+1.4.2024, 17:24:50 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:24:50 - INFO - Req was made | / 
+1.4.2024, 17:24:50 - INFO - Req was made | / 
+1.4.2024, 17:24:50 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:24:51 - INFO - Req was made | / 
+1.4.2024, 17:24:51 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 17:49:04 - INFO - server.js loaded... 
+1.4.2024, 18:02:58 - INFO - server.js loaded... 
+1.4.2024, 18:03:06 - INFO - Req was made | / 
+1.4.2024, 18:03:06 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:03:07 - INFO - Req was made | / 
+1.4.2024, 18:03:07 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:03:08 - INFO - Req was made | / 
+1.4.2024, 18:03:08 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:03:12 - INFO - Req was made | / 
+1.4.2024, 18:03:12 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:03:12 - INFO - Req was made | / 
+1.4.2024, 18:03:12 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 18:03:13 - INFO - Req was made | / 
+1.4.2024, 18:03:13 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 18:03:48 - INFO - Req was made | / 
+1.4.2024, 18:03:48 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 18:03:48 - INFO - Req was made | / 
+1.4.2024, 18:03:48 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 18:03:51 - INFO - Req was made | / 
+1.4.2024, 18:03:51 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:03:51 - INFO - Req was made | / 
+1.4.2024, 18:03:51 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 18:03:51 - INFO - Req was made | / 
+1.4.2024, 18:03:51 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 18:04:33 - INFO - Req was made | / 
+1.4.2024, 18:04:33 - DEBUG - Getting Toys | {"txt":"","labels":["on wheels"],"inStock":null} 
+1.4.2024, 18:04:33 - INFO - Req was made | / 
+1.4.2024, 18:04:33 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:04:33 - INFO - Req was made | / 
+1.4.2024, 18:04:33 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:04:36 - INFO - Req was made | / 
+1.4.2024, 18:04:36 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 18:04:36 - INFO - Req was made | / 
+1.4.2024, 18:04:36 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 18:04:36 - INFO - Req was made | / 
+1.4.2024, 18:04:36 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 18:05:15 - INFO - Req was made | / 
+1.4.2024, 18:05:15 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:05:15 - INFO - Req was made | / 
+1.4.2024, 18:05:15 - DEBUG - Getting Toys | {"txt":"","labels":["Art"],"inStock":null} 
+1.4.2024, 18:05:16 - INFO - Req was made | / 
+1.4.2024, 18:05:16 - DEBUG - Getting Toys | {"txt":"","labels":["Art"],"inStock":null} 
+1.4.2024, 18:05:19 - INFO - Req was made | / 
+1.4.2024, 18:05:19 - DEBUG - Getting Toys | {"txt":"","labels":["Art"],"inStock":null} 
+1.4.2024, 18:05:19 - INFO - Req was made | / 
+1.4.2024, 18:05:19 - DEBUG - Getting Toys | {"txt":"","labels":["On Wheels"],"inStock":null} 
+1.4.2024, 18:05:19 - INFO - Req was made | / 
+1.4.2024, 18:05:19 - DEBUG - Getting Toys | {"txt":"","labels":["On Wheels"],"inStock":null} 
+1.4.2024, 18:05:42 - INFO - Req was made | / 
+1.4.2024, 18:05:42 - DEBUG - Getting Toys | {"txt":"","labels":["On Wheels"],"inStock":null} 
+1.4.2024, 18:05:42 - INFO - Req was made | / 
+1.4.2024, 18:05:42 - DEBUG - Getting Toys | {"txt":"","labels":["Art"],"inStock":null} 
+1.4.2024, 18:05:42 - INFO - Req was made | / 
+1.4.2024, 18:05:42 - DEBUG - Getting Toys | {"txt":"","labels":["Art"],"inStock":null} 
+1.4.2024, 18:05:48 - INFO - Req was made | / 
+1.4.2024, 18:05:48 - DEBUG - Getting Toys | {"txt":"","labels":["Art"],"inStock":null} 
+1.4.2024, 18:05:48 - DEBUG - Getting Toys | {"txt":"","labels":["Doll"],"inStock":null} 
+1.4.2024, 18:05:48 - INFO - Req was made | / 
+1.4.2024, 18:05:49 - INFO - Req was made | / 
+1.4.2024, 18:05:49 - DEBUG - Getting Toys | {"txt":"","labels":["Doll"],"inStock":null} 
+1.4.2024, 18:05:52 - INFO - Req was made | / 
+1.4.2024, 18:05:52 - DEBUG - Getting Toys | {"txt":"","labels":["Doll"],"inStock":null} 
+1.4.2024, 18:05:52 - INFO - Req was made | / 
+1.4.2024, 18:05:52 - DEBUG - Getting Toys | {"txt":"","labels":["On Wheels"],"inStock":null} 
+1.4.2024, 18:05:52 - INFO - Req was made | / 
+1.4.2024, 18:05:52 - DEBUG - Getting Toys | {"txt":"","labels":["On Wheels"],"inStock":null} 
+1.4.2024, 18:06:07 - INFO - Req was made | / 
+1.4.2024, 18:06:07 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:06:07 - INFO - Req was made | / 
+1.4.2024, 18:06:07 - DEBUG - Getting Toys | {"txt":"","labels":["On Wheels"],"inStock":null} 
+1.4.2024, 18:06:07 - INFO - Req was made | / 
+1.4.2024, 18:06:07 - DEBUG - Getting Toys | {"txt":"","labels":["On Wheels"],"inStock":null} 
+1.4.2024, 18:06:09 - INFO - Req was made | / 
+1.4.2024, 18:06:09 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:06:10 - INFO - Req was made | / 
+1.4.2024, 18:06:10 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:06:12 - INFO - Req was made | / 
+1.4.2024, 18:06:12 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 18:06:13 - INFO - Req was made | / 
+1.4.2024, 18:06:13 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 18:06:13 - INFO - Req was made | / 
+1.4.2024, 18:06:13 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 18:06:15 - INFO - Req was made | / 
+1.4.2024, 18:06:15 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":"true"} 
+1.4.2024, 18:06:15 - INFO - Req was made | / 
+1.4.2024, 18:06:15 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":"true"} 
+1.4.2024, 18:06:15 - INFO - Req was made | / 
+1.4.2024, 18:06:15 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":"true"} 
+1.4.2024, 18:06:16 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":"false"} 
+1.4.2024, 18:06:16 - INFO - Req was made | / 
+1.4.2024, 18:06:16 - INFO - Req was made | / 
+1.4.2024, 18:06:16 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":"false"} 
+1.4.2024, 18:06:16 - INFO - Req was made | / 
+1.4.2024, 18:06:16 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":"false"} 
+1.4.2024, 18:06:17 - INFO - Req was made | / 
+1.4.2024, 18:06:17 - DEBUG - Getting Toys | {"txt":"","labels":["On wheels"],"inStock":null} 
+1.4.2024, 18:07:41 - INFO - server.js loaded... 
