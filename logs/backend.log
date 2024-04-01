@@ -1274,6 +1274,13 @@
 1.4.2024, 20:17:39 - INFO - Req was made | / 
 1.4.2024, 20:17:39 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
 1.4.2024, 20:21:38 - INFO - server.js loaded... 
+1.4.2024, 20:17:37 - INFO - Req was made | / 
+1.4.2024, 20:17:37 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:17:38 - INFO - Req was made | / 
+1.4.2024, 20:17:38 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:17:39 - INFO - Req was made | / 
+1.4.2024, 20:17:39 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
+1.4.2024, 20:21:38 - INFO - server.js loaded... 
 1.4.2024, 20:33:08 - INFO - Req was made | / 
 1.4.2024, 20:33:08 - DEBUG - Getting Toys | {"txt":"","labels":null,"inStock":null} 
 1.4.2024, 20:33:09 - INFO - Req was made | / 
